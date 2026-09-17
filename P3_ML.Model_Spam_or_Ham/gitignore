@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models & vectorizer (large / regenerable — remove this section if you want to push them)
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Environment variables (if you add any secrets/config later)
+.env
